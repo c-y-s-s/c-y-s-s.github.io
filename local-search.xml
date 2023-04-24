@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>JavaScript 變數 Part01 - 入門</title>
+    <link href="/2023/04/24/javaScript01/"/>
+    <url>/2023/04/24/javaScript01/</url>
+    
+    <content type="html"><![CDATA[<p>在剛接觸程式時，應該會有不少人對於變數的概念有些模糊</p><p>我這邊嘗試用我當初把它搞懂的方式來解釋</p><p>變數可以把它想像成一個容器</p><p>情境舉例 :</p><p>如果今天去超市買了一堆東西(物件)，就需要裝到袋子(容器)裡才拿的回家<br>拿著袋子(容器)回家,從袋子裡拿出豬肉<br>拿出豬肉並料理成打拋豬肉,裝到盤子(容器)裡<br>終於煮好打拋豬了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs javacript"><br>let bag = &#123;<br>  pork: 1,<br>  tissuePaper: 2,<br>  egg: 1<br>&#125;;<br><br>console.log(bag.pork);<br><br><br>function cook(pork) &#123;<br><br>  return &quot;打拋豬&quot;;<br>&#125;;<br><br><br>let plate = cook(bag.fork)<br><br><br>console.log(plate)<br></code></pre></td></tr></table></figure><p>參考網址:<a href="https://hexo.io/docs/one-command-deployment.html">嘿</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
